@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+// import out bootstrap scss file
+@import "../bootstrap-4.5.3/scss/bootstrap.scss";
+
+body{
+    background: #333;
+    display: flex;
+}
+
+#map{
+    min-height: 100vh;
+    width: 70vw;
+    background: lightcoral;
+}
+
+#right-panel{
+    min-height: 100vh;
+    width: 30vw;
+    padding: 2%;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
